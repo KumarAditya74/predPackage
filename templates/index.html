@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placement Package Prediction</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-image: url("https://cdn.pixabay.com/photo/2015/10/11/10/47/puzzle-982124_640.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        background-color: rgba(255, 255, 255, 0.8); /* Adjust transparency as needed */
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+        text-align: center;
+    }
+    h1 {
+        color: #333;
+        font-size: 24px;
+    }
+    p {
+        color: #555;
+        font-size: 18px;
+    }
+    .proceed-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        transition: background-color 0.3s;
+    }
+    .proceed-btn:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <h1>Placement Package Prediction</h1>
+        <p>This project aims to predict placement packages based on various factors such as academic performance, skills, and other relevant attributes of students. The prediction helps students and recruiters make informed decisions.</p>
+        <p>Importance of the project:</p>
+        <ul>
+            <li>Helps students understand their market value in terms of salary expectations.</li>
+            <li>Assists recruiters in identifying suitable candidates efficiently.</li>
+            <li>Enhances transparency in the hiring process.</li>
+            <!-- Add more points as needed -->
+        </ul>
+        <button class="proceed-btn" onclick="window.location.href='/predict'">Proceed</button>
+    </div>
+</div>
+
+</body>
+</html>
